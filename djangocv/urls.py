@@ -20,5 +20,5 @@ from notas.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', HomePageView.as_view, name='home'),
+    path('', HomePageView.as_view(), name='home'),
 ]
